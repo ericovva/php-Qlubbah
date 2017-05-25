@@ -1,0 +1,229 @@
+@media screen and (min-width: 1150px) {
+html,body{
+	background-color: #fff;
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px; 
+	height: 100%;
+}
+.text{
+    
+    font-size: large;
+    color: #000;  
+    
+}
+
+
+
+#block1{
+    position: relative; max-height: 1300px; min-height: 1000px;
+    margin-top: -15px;
+	width: 100%;
+	height: 100%; min-height: 600px;
+	background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    background-attachment:fixed;
+}
+h1{
+	padding-top: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: xx-large;
+	width: 80%;
+	text-align: center;
+	color: #626262; 
+	    text-shadow: #000 1px 1px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+h2{
+	padding-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: large;
+	width: 80%;
+	text-align: center;
+	color: #626262; 
+	font-family: 'Rubik', sans-serif;
+}
+h3{
+  
+	margin-right: auto;
+	margin-left: auto;
+	font-size: x-large;
+	width: 80%;
+	text-align: center;
+	color: #000; 
+	font-family: 'Rubik', sans-serif;
+}
+h4{
+    font-size: 25px;
+    font-family: Bebas; 
+	margin-right: auto;
+	margin-left: auto;
+	font-size: x-large;
+	width: 80%;
+	text-align: center;
+	color: #fff;
+    text-shadow: #000 2px 3px 3px;
+	font-family: 'Rubik', sans-serif;
+}
+#apps{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+	margin-left: auto;
+    max-width: 600px;
+    //background-color: #f3b526; 
+    border: 0px red solid;
+    border-radius: 30px;
+    background-image: url(../img/8344685.png);
+      //background-image: url(../img/5110555.png  );
+      background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+#app_apple{
+    width: 221px;
+    height: 76px;
+    background-image: url(../img/app_store.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    cursor: pointer;
+    
+}
+#app_desktop{
+    width: 221px;
+    height: 76px;
+    background-image: url(../img/google-play.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    float: right;
+}
+#arrow{
+	position:absolute; /* �������� */
+	bottom: 1%; /* �������� */
+	//background:red;
+	height:100px; 
+    left:50%; margin-left:-50px;  
+	width:100px;
+    background-image: url(../img/arrow_white.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.jPanelMenu-panel{
+    height: 100%;
+}
+#block2{
+    padding-top: 5%;
+	width: 100%;
+	height: 100%; min-height: 1000px; max-height: 1300px;
+	background-image: url(../img/3-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    position: relative;  
+}
+#choose_div{ //border: 1px red solid;
+    height:  60%;
+    width:  70%;
+    max-width: 800px;  
+    margin: 0 auto;
+}
+#choose{ 
+    float: left;;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    //max-width: 600px;
+    border: 0px red solid;
+    padding-top: 15px;
+    background-image: url(../img/8344685.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    //border-bottom: 5px  outset;
+    border-radius: 25px;
+}
+#map_block{
+   //border: 1px red solid;
+   width: 50%;
+   float: left;
+}
+#list_block{
+    //border: 1px red solid;
+    width: 50%;
+    float: left;   
+
+}
+#map{
+    width: 220px;
+    height: 220px;
+    background-image: url(../img/map.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+     
+}
+
+#list{
+    width: 220px;
+    height: 220px;
+    background-image: url(../img/list.png); 
+    background-repeat: no-repeat;
+    background-size: cover;   
+    margin: 0 auto;
+}
+
+#map_text{
+    padding-top: 10px;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    
+}
+#list_text{
+    padding-top: 10px;
+   font-family: 'Rubik', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+#quotes{
+    margin: 0 auto; color: #fff;
+	    text-shadow: #000 2px 3px 3px;
+    width: 90%;
+    max-width: 1300px;
+    //border: 5px red solid;
+    height: 200px;
+    text-align: center;
+    margin-top: -150px;
+    font-family: 'Rubik', sans-serif;
+}
+.quotes_text{
+    font-size: 14px; color: #fff;
+	    text-shadow: #000 2px 3px 3px;
+    font-style: italic;
+    text-align: center;
+	
+    float: left;
+    width: 15%; 
+    margin-left: 10%;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.first_quote{
+    margin-left: 0px;
+}
+
+
+
+}
+
+
+

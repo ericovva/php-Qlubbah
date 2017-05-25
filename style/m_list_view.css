@@ -1,0 +1,262 @@
+@media  screen and (max-width: 1150px) {
+    body{
+    background-color: #000;
+}
+.about_club{
+    float:right; margin-right: 40%;; margin-top: -28px; 
+} 
+.club_info_img{
+    float:left;
+}
+.owl_user{ margin-top: 60px; 
+width: 50%; float: left; margin-right: 20px; margin-left: 20px;
+}
+.about_club_in_window{
+float:right; width: 40%;
+}
+.adres_a:link{
+	color: #f3c800;
+
+}
+.adres_a:visited{
+	color: rgb(255, 140, 0);
+
+}
+.put_comment{
+    width: 90%;
+    font-size: 15px;
+    min-height: 140px;
+    margin-top: 40px;
+    //border: ridge 5px; 
+    border-color: #fff;
+    margin-left: 5%;
+   padding: 5px; 
+    box-shadow: 6px 6px 0 0 rgba(0,0,0,0.25); 
+}
+#submit{
+    margin-bottom: 60px;
+    float: right; 
+    margin-top: 7px;
+    margin-right: 5%;
+}
+.well_done{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 13px;
+}
+.commentator{
+    font-size: 20px;
+    font-family: 'Bebas';
+    font-weight: normal;
+}
+.comment_time{
+    font-size: 12px;
+}
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+.comment_block{margin-top: 20px;
+    background-color:  #F0F9FC;
+    box-shadow: 6px 6px 0 0 rgba(0,0,0,0.25);
+    
+}
+#comment_block{
+    width: 50%; 
+	float: left;
+	padding-left: 20px;
+}
+
+.close{
+    position: absolute;
+    right: 0px; top: 0px;
+}
+
+.windows{
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 100;
+    overflow-y:scroll;
+    background-color: rgba(243,200,80,0.98);
+    -webkit-overflow-scrolling: touch;
+    //position: absolute;
+    //position: fixed;
+    //top: 55px;
+    //top: 0px;
+}
+
+#block1{
+	width: 100%;
+	height: auto;
+	background-size: auto;
+    text-align: left; float: left;
+    background-image: url(../img/bg-4fc7bf9a1cc3cccae754bac1735b3414.gif);
+    background-repeat: repeat;
+    padding-bottom: 70px;
+}
+
+h1{
+	padding-top:150px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: xx-large;
+	width: 80%;
+	text-align: left;
+	color: #FFF; opacity: 0.86;
+}
+
+h2{
+	padding-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: large;
+	width: 80%;
+	text-align: center;
+	color: #626262; 
+}
+
+.list_element{
+    //border: 2px red solid;
+    width: 100%;
+    //left: 50%; 
+    //max-width: 1100px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #000;
+    float:left;
+}
+
+ .button7 { width:200px; margin-bottom: 10px; cursor: pointer;
+    width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 550; font-size: 15px; 
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(57,57,57);
+    box-shadow: 0 -3px rgb(27,27,27) inset;
+    transition: 0.2s;
+    border: 0px red solid;
+    margin: 3px;
+    font-family: 'Lato', sans-serif;
+} 
+
+.button7:hover { 
+    background: rgb(53, 167, 110);background-color:#f3c800; 
+    color:rgb(57,57,57); box-shadow: 0 -3px rgb(226, 166, 0) inset;
+}
+.button7:active {  } 
+
+#list_elem_innner {
+    width: 84%; max-width:820px; margin: 0 auto;  min-height: 200px;
+    border-bottom: 1px black solid; background-color:  rgb(0, 0, 0); opacity: 0.9; border-radius: 0px 20px 20px 0px; 
+    //background-image:url(../img/gold.png);  color:#f3c800;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#sort_div{
+    width: 640px;  border: 1px white solid; margin-top: 50px;  margin: 0 auto; margin-bottom: 120px;  display: none;
+}
+
+#sort_list{
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 20px solid white;
+    margin: 0 auto; margin-bottom: 26px;
+}
+
+#club_img{
+    width: 200px;
+    height: 200px;
+}
+
+.likes{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.list_element_text{
+    padding: 4px;
+    padding-left: 250px;
+}
+
+.list_img{
+    float: left;
+}
+.mw_text{
+    top:-3px; margin-left:2px; position: relative;
+}
+.mw_icon{
+    width: 20px;
+    height: 20px;
+}
+
+    @media screen and (max-width: 800px) {
+	.about_club_in_window{
+ width: 90%;
+}
+	.owl_user{
+		width: 100%; float: none; margin-right: 0px; margin-left: 0px;
+	}
+
+        .about_club{
+             margin-right: 25%;
+        } 
+		#comment_block{
+			width: 90%; margin-left: auto;margin-right: auto;
+		}
+    }
+    @media screen and (max-width: 600px) {
+        .about_club{
+            float:none; margin:0;
+        } 
+        .club_info_img{
+            float:none; display: none;
+        }
+        #sort_div{
+            width:200px;  
+            //border: 1px red solid;
+            margin-top: 50px; 
+            height: auto; margin: 0 auto;  display: none;
+        }
+        
+        h1{
+	       padding-top:95px;
+        }
+        
+        #club_img{
+            width: 100%;
+            height: auto;
+        }
+        
+        #list_elem_innner {
+            width: 100%; text-align: center;
+            border-radius: 0px; margin-bottom: -40px; margin-top: 20px; 
+        }
+        
+        #the_last_list_element_text{
+            margin-bottom: 50px;
+        }
+        
+        .list_element_text{
+            padding-left: 0px;
+        }
+        
+        .list_img{
+            float: none;
+        }
+    }
+}

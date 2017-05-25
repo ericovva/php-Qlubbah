@@ -1,0 +1,131 @@
+@media screen and (min-width: 1150px) {
+html, body {    font-family: 'Rubik', sans-serif; }
+    
+footer{
+    font-family: 'Rubik', sans-serif;
+    //color: #fff;
+    text-align: center;
+    position:  relative;
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(to bottom, #FDDB42, #FFF); 
+        
+    
+}
+footer a{
+font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+ul.footer_ul {
+font-family: 'Rubik', sans-serif;
+padding:5px; 
+}
+ul.footer_ul li {
+font-family: 'Rubik', sans-serif;
+display:inline;
+border-left:1px solid #bbb;
+padding:0 2px 0 4px;
+}
+ul.footer_ul li:first-child {
+font-family: 'Rubik', sans-serif;
+border:none;
+}
+
+footer{
+font-family: 'Rubik', sans-serif;
+    background: #000;
+    float:left;
+}
+
+#social_content{
+font-family: 'Rubik', sans-serif;
+    margin:0 auto;  width: 300px; 
+}
+.social {
+font-family: 'Rubik', sans-serif;
+    margin: 20px; width: 50px; height: 50px; float: left;
+      background-repeat: no-repeat; 
+    background-size: cover; 
+    
+    	
+}
+.twitter{
+    background-image: url(../img/twit_logo.png);
+
+    }
+
+.vk{
+  	background-image: url(../img/vk_logo.png);
+  
+}
+.inst{
+    background-image: url(../img/inst_logo.png); 
+}    
+    
+    
+}
+@media screen and (max-width: 1150px) {
+    
+    footer{
+	font-family: 'Rubik', sans-serif;
+    //color: #fff;
+    text-align: center;
+    position:  relative;
+    width: 100%;
+    height: 250px;
+    background: #FDDB42; 
+	  background: #000;
+   
+    float:left;
+    
+	
+    
+}
+footer a{
+font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+ul.footer_ul {
+font-family: 'Rubik', sans-serif;
+padding:5px; 
+}
+ul.footer_ul li {
+
+display:inline;
+border-left:1px solid #bbb;
+padding:0 2px 0 4px;
+}
+ul.footer_ul li:first-child {
+border:none;
+}
+
+
+
+
+
+#social_content{
+    margin:0 auto;  width: 210px;  font-family: 'Rubik', sans-serif;
+}
+.social {
+    margin: 10px; width: 50px; height: 50px; float: left;
+      background-repeat: no-repeat; 
+    background-size: cover; 
+    
+    	
+}
+.twitter{
+    background-image: url(../img/twit_logo.png);
+
+    }
+
+.vk{
+  	background-image: url(../img/vk_logo.png);
+  
+}
+.inst{
+    background-image: url(../img/inst_logo.png); 
+}
+
+    
+}
+

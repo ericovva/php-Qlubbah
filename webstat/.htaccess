@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/qlubbah.ru/webstat"
+AuthUserFile /var/www/h27141/data/etc/25430279.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
